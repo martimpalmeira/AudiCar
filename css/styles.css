@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/* ------------ HEADER ------------- */
+
+.nav-container{
+    height: 500px;
+    background-color: #F78B00;
+    padding: 42px;
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.logo, .menu-item a, .login-btn{
+    color: #00285F;
+    font-weight: 400;
+}
+
+.logo{
+    font-size: 36px;
+}
+
+.logo .logo-bold{
+    font-weight: 700;
+}
+
+.nav-right-itens{
+    display: flex;
+}
+
+.menu-container{
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 18px;
+}
+
+.login-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #00285F;
+    background-color: #F78B00;
+    margin-left: 23px;
+    font-size: 18px;
+}
+
+.header-bottom{
+    position: relative;
+    top: 72px;
+    background-color:#00285F;
+    color: white;
+    height: 431px;
+    padding: 151px 30px 12px 88px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(32, 32, 32);
+  
+}
+
+.header-description{
+    display: flex;
+    height: 100%;
+   
+}
+
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.header-text h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 17px;
+}
+
+.header-text p{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 8px;
+}
+
+
+
+/* ------------ Catalog ------------- */
+
+#catalog{
+    padding: 169px 20px 0 20px;
+    
+}
+
+.subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.catalog-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.catalog-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.catalog-main form{
+    background-color: #EDEDED;
+    height: 178px;
+    border-radius: 8px;
+    padding: 57px 42px 58px 52px;
+    margin-bottom: 64px;
+}
+
+.form-input{
+    display: flex;
+    width: 100%;
+}
+
+.catalog-main .form-input input{
+    height: 63px;
+    width: 77%;
+}
+
+.form-input button{
+    background-color: #00285F;
+    color: white;
+    font-size: 24px;
+    height: 63px;
+    width: 23%;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.form-input ::placeholder{
+    padding-left: 28px;
+    font-size: 18px;
+}
+
+.cars-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin-bottom: 234px;
+}
+
+.car-card{
+    background-color: #EDEDED;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.car-information{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+
+.car-information h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.car-information p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.58);
+    margin-bottom: 11px;
+}
+
+.car-information button{
+    background-color: #00285F;
+    color: white;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+/*------------ ABOUT -------------*/
+
+.about-main{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.about-title{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.about-content{
+    padding: 21px 50px 22px 21px;
+    height: 466px;
+    background-color:rgb(245, 245, 245);
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 181px;
+}
+
+.about-content img{
+    margin-right: 33px;
+    background-color: rgb(217, 217, 217);
+}
+
+.about-content-right{
+    text-align: end;
+}
+
+.about-content-title{
+    margin-bottom: 31px;
+    margin-top: 50px;
+}
+
+.about-content-text{
+    color: #938F8F;
+}
+
+
+/*-------------- FEATURES -----------*/
+
+#features{
+    background-color: #EDEDED;
+    padding-top: 165px;
+    padding-bottom: 180px;
+}
+
+.features-main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.features-title{
+    margin-bottom: 48px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.features-content{
+    background-color: white;
+    border-radius: 10px;
+    height: 564px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 36px 9px 35px;
+    justify-content: space-between;
+    
+}
+
+.content-item{
+    display: flex;
+    width: 432px;
+    height: 150px;
+    margin-bottom: 21px;
+    align-items: center;
+    border: solid 1px #EDEDED;
+    padding: 34px 78px 29px 34px;
+}
+
+.content-item img{
+    Width: 69.12px;
+    Height: 73px;
+    margin-right: 27px;
+}
+
+.item-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.item-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*--------------- FOOTER --------------*/
+
+.footer-container{
+    color: white;
+}
+
+.footer-top-container{
+    background-color: #F78B00;
+    height: 224px;   
+}
+
+.footer-top-item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 49px;
+}
+
+.footer-top-item a{
+    color: white;
+}
+
+.footer-top{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.footer-top h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.footer-top a, .footer-top p{
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.footer-top .instagram-icon{
+    margin-right: 20px;
+}
+
+.footer-bottom{
+    background-color: #00285F;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom p{
+    font-size: 12px;
+}
+
+
+/*---------- MEDIA QUERIES ----------*/
+
