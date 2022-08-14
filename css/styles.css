@@ -321,10 +321,10 @@
     display: flex;
     width: 432px;
     height: 150px;
-    margin-bottom: 21px;
     align-items: center;
     border: solid 1px #EDEDED;
     padding: 34px 78px 29px 34px;
+    margin: 0 auto 21px auto;
 }
 
 .content-item img{
